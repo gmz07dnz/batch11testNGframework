@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="running Positive Smoke Test">
+    <test name="smoke test ">
+        <classes>
+            <class name="com.techproed.smoketest.PositiveTestWithPage"></class>
+            <class name="com.techproed.tests.Day12_Alerts"></class>
+            <class name="com.techproed.tests.Day11_SoftAssert1"></class>
+
+        </classes>
+
+    </test>
+
+</suite>
